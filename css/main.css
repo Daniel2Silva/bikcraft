@@ -1,0 +1,43 @@
+.introducao-bg{
+    background: #000000;
+    color: #ffffff;
+}
+
+.introducao{
+    display: grid;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 0 40px;
+}
+
+.introducao-item{
+    align-self: end;
+    margin-bottom: 200px;
+}
+.introducao h1 span{
+    color: #FFBF00;
+
+}
+
+.introducao h1{
+    margin-bottom: 40px;
+    font-size: 64px;
+}
+
+.introducao p{
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    line-height: 1.25;
+}
+
+.botao{
+    color: #332200;
+    background: linear-gradient( #FFBF00, #F2A50C);
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
