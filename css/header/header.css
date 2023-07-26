@@ -78,6 +78,11 @@
     .header-menu{
         gap: 12px;
     }
-    
+    .header-menu a:hover:after{
+        display: none;
+    }
+    .introducao img{
+        height: 300px;
+    }
 }
 

@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bikcraft</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header-bg">
       <div class="header">
         <a href=""><img src="./img/bikcraft.svg" alt="logo-bikcraft" /></a>
         <nav aria-label="primaria">
-          <ul class="header-menu">
+          <ul class="header-menu font-1-xl cor-0">
             <li><a href="./bicicletas.html">Bicicletas</a></li>
             <li><a href=".seguros/.html">Seguros</a></li>
             <li><a href="./contato.html">Contato</a></li>
@@ -22,8 +28,10 @@
     <main class="introducao-bg">
       <div class="introducao">
         <div class="introducao-item">
-          <h1>Bicicletas feitas sob medida<span>.</span></h1>
-          <p>
+          <h1 class="font-1-xxl cor-0">
+            Bicicletas feitas sob medida<span>.</span>
+          </h1>
+          <p class=".font-2-xs cor-5">
             Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
             para o cliente. Explore o mundo na sua velocidade com a Bikcraft.
           </p>
@@ -34,5 +42,31 @@
         </div>
       </div>
     </main>
+    <article class="bicicletas-lista">
+      <h2 class="font-1-xxl cor-11"> Bicicletas<span>.</span> </h2>
+      <ul>
+        <a href="">
+          <li>
+            <img src="./img/bicicletas/magic-home.jpg" alt="" />
+            <h3 class="font-1-xl  cor-11">Magic Migth</h3>
+            <span class="cor-8">1599</span>
+          </li>
+        </a>
+        <a href="">
+          <li>
+            <img src="./img/bicicletas/nebula-home.jpg" alt="" />
+            <h3 class="font-1-xl cor-11">Nimbus Stark</h3>
+            <span class="cor-8">1599</span>
+          </li>
+        </a>
+        <a href="">
+          <li>
+            <img src="./img/bicicletas/nimbus-home.jpg" alt="" />
+            <h3 class="font-1-xl cor-11">Nenula Comisc</h3>
+            <span class="cor-8">1599</span>
+          </li>
+        </a>
+      </ul>
+    </article>
   </body>
 </html>

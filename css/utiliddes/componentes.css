@@ -1,0 +1,8 @@
+.botao{
+    color: #332200;
+    background: linear-gradient( #FFBF00, #F2A50C);
+    padding: 1rem 2rem;
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
